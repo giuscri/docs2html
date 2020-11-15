@@ -1,9 +1,11 @@
 # docs2html
 
 ## !! IMPORTANT !!
-This is only for educational purpose. You can achieve mostly the same result simpler solutions: either [use Google
+**This is only for educational purpose. You can achieve mostly the same result simpler solutions: either [use Google
 Syntetic records](https://support.google.com/domains/answer/6069273?hl=en) if your registrar is Google Domains, or
-[use an S3 bucket](https://dev.to/marklocklear/redirecting-a-domain-with-https-using-amazon-s3-and-cloudfront-526h)
+[use an S3 bucket](https://dev.to/marklocklear/redirecting-a-domain-with-https-using-amazon-s3-and-cloudfront-526h)**
+
+---
 
 I wanted to show my Google Doc resume as my landing page. For that I wanted to use an AWS Lambda because:
 1. I wanted to play around with AWS (I'm using Azure these days)
