@@ -32,6 +32,6 @@ the specified Google Doc as an HTML file, push the file to GitHub and have that 
 * Generate an SSH keypair and add the pubkey to GitHub
 * Create a repository with GitHub Pages enabled
 * Setup the lambda env variables needed to register the lambda to receive notifications when an update occurs
-* Add an Amazon EventBridge as a trigger to the lambda: let it fire an event once per hour such that the Google Drive API will keep on sending notifications (the subscription expires after 1 hour by default)
+* Add an Amazon EventBridge as the second trigger to the lambda: let it fire an event once per hour such that the Google Drive API will keep on sending notifications (the subscription expires after 1 hour by default)
 * Modify the Google Doc, wait a couple of minutes and see it changing the website
 * 🎊
